@@ -1,0 +1,11 @@
+%takes a string value as input and returns the length of the 
+%string and the first and last character as outputs.
+%inputs: 
+function [len, firstl, lastl] = task9(name)
+%matlab reads a string as a one character and cannot returns length of a
+%string 
+   name = char(name);
+   len = length(name);
+   firstl = name(1);
+   lastl = name(length(name));
+end

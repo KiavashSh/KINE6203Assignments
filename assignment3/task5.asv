@@ -1,0 +1,50 @@
+function [a]=task5(num1)
+%this function accepts a single 3-element array (e.g. [3 4 5]), and returns a logical value (0 or 1) 
+% indicating if the 3 elements of the array represent the sides of a valid triangle.
+
+%input: a 3-element array 
+%output: a logical value (0 or 1)
+% first of all we want to define the min, max and the median of arrays. so the first  
+max = num1(1);
+min = num1(1);
+mid = num1(1);
+%min, max and mid should have a default value so that they can be
+%comparable in the following loops
+
+
+
+%find maximum from element 1 to the last element and store it in max 
+for i=1:length(num1)
+    if num1(i)>max
+        max = num1(i);
+    end
+end
+
+
+
+%find minimum from element 1 to the last element and store it in min
+for i=1:length(num1)
+    if num1(i)<min
+        min = num1(i);
+    end
+end
+
+
+
+%find median from element 1 to the last element and store it in mid. here
+%as we have 3 elements so the one that is not in both min and max is the 
+for i=1:length(num1)
+    if num1(i)~=min && num1(i)~=max
+        mid = num1(i);
+    end
+end
+
+
+
+%checking to see if the inputs represent the sides of a valid triangle
+if min+mid<max
+    a=1;
+else
+    a=0;
+end
+
