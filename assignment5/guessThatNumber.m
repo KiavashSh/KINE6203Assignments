@@ -2,7 +2,7 @@ function guessThatNumber()  % *** WARNING: CONTAINS INTENTIONAL BUGS! ***
 %---------------------------------------------------------------
 %       USAGE: guessThatNumber() - Assignment 5
 %
-%        NAME:
+%        NAME: Kiavash Sharifi
 %
 % DESCRIPTION: This program is supposed to allow the user to play
 %              the Number Guessing Game, however, it contains bugs.
@@ -23,7 +23,7 @@ moderate = 2;               % moderate level #
 advanced = 3;               % advanced level #
 beginnerHighest = 10;       % highest possible number for beginner
 moderateHighest = 100;      % highest possible number for moderate
-advancedHighest = 1000;    % highest possible number for advanced
+advancedHighest = 1000;     % highest possible number for advanced
 
 % clear screen and display game introduction
 

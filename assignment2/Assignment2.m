@@ -108,3 +108,4 @@ else
     disp(" Ok! see you next time ")
 end
 
+%computer shoro kone o even shin ro emtahan kon 
