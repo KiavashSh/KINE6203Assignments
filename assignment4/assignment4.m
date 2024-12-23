@@ -1,7 +1,7 @@
 clear all
 clc
 % Import data from the CSV file 'isok_data_6803.csv'. The data starts from row 2, and all columns are imported.
-[SubjectID, Age, Gender, Weight, Day1, Day2, Day3] = importfile("isok_data_6803.csv", [2, Inf]);
+[SubjectID, Age, Gender, Weight, Day1, Day2, Day3] = importfile("filename.csv", [2, Inf]);
 
 
 % Calculate the individual and group mean isometric strength values for males and females using the genderIsoCalc function
